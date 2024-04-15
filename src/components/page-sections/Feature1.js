@@ -1,21 +1,16 @@
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
+import { ArrowPathIcon, TagIcon } from '@heroicons/react/20/solid'
 
 const features = [
   {
-    name: 'Push to deploy.',
+    name: 'Real-Time Updates',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: CloudArrowUpIcon,
+      'Always know your current expenses with real-time updates.',
+    icon: ArrowPathIcon,
   },
   {
-    name: 'SSL certificates.',
-    description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
-    icon: LockClosedIcon,
-  },
-  {
-    name: 'Database backups.',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    icon: ServerIcon,
+    name: 'Categorization',
+    description: 'Categorize your expenses to organize your spending habits.',
+    icon: TagIcon,
   },
 ]
 
@@ -26,11 +21,10 @@ export default function Feature1() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <h2 className="text-base font-semibold leading-7 text-green-300">Deploy faster</h2>
-              <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">A better workflow</p>
+              <h2 className="text-base font-semibold leading-7 text-green-300">Increase Productivity</h2>
+              <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Smart Expense Tracking & Categorization</p>
               <p className="mt-6 text-lg leading-8 text-white">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque,
-                iste dolor cupiditate blanditiis ratione.
+                Maximize your savings through our expense tracking and categorization tools. 
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-white lg:max-w-none">
                 {features.map((feature) => (
@@ -45,13 +39,7 @@ export default function Feature1() {
               </dl>
             </div>
           </div>
-          <img
-            src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
-            alt="Product screenshot"
-            className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
-            width={2432}
-            height={1442}
-          />
+          <img src="/expense.jpg" alt="Expense Picture" width={"350px"} className="rounded-2xl shadow-2xl" />
         </div>
       </div>
     </div>
