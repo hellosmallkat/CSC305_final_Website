@@ -4,8 +4,11 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Expense Tracker App",
-  description: "A simple expense tracker app built with Thunkable.",
+  title: "CoinTrail Application",
+  description: "A expense tracker application built using Thunkable.",
+  icons: {
+    icon: "/COINTRAIL_LOGO.png",
+  },
 };
 
 export default function RootLayout({ children }) {

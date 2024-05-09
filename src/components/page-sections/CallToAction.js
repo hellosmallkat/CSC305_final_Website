@@ -20,7 +20,7 @@ export default function CallToAction() {
                 Download Now
               </button>
             </div>
-            <p className="mt-8 text-red-500">The app is currently not released.</p>
+            <p className="mt-8 text-red-500">The app is currently not released publicly.</p>
           </div>
         </div>
       </div>
