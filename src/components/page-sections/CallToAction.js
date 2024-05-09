@@ -9,18 +9,15 @@ export default function CallToAction() {
               Focus on what matters most to you.
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-white">
-              Click below to checkout our application. It's free to download and use, so you can start tracking your expenses and budgeting your money today.
+              A video and live demo of our application is shown below.
             </p>
+            <p className="mt-6 text-red-500">Disclaimer: Live Demo is a Thunkable Live <span className="font-bold">Webpage</span> Version of the application. It is not a fully functional application.</p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <button
-                href="#"
-                className="rounded-md bg-green-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-800 disabled:bg-green-800 disabled:cursor-not-allowed disabled:hover:bg-green-800 disabled:focus-visible:outline-green-800 disabled:focus-visible:outline-offset-2 disabled:focus-visible:outline-2 disabled:shadow-sm disabled:text-white disabled:opacity-50 disabled:disabled"
-                disabled
-              >
-                Download Now
-              </button>
+              <div>
+                <iframe className="rounded-xl" src="/VideoDemo.mp4" title="CoinTrail Video Demo" height="760" width="475"></iframe>
+                <iframe className="mt-6" src="https://thunkable.site/w/bz4KT2kLVNNi2Q6JpoKMu" title="Chop Down the Tree Thunkable App" height="750" width="500"></iframe>
+              </div>
             </div>
-            <p className="mt-8 text-red-500">The app is currently not released publicly.</p>
           </div>
         </div>
       </div>
